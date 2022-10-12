@@ -1,0 +1,21 @@
+name: hf
+dependencies:
+  - python=3.10
+  - jupyter
+  - IPython
+  - pandas
+  - numpy
+  - nbconvert
+  - jupyterlab
+  - pip
+  - pip:
+    - transformers
+    - datasets
+    - tensorflow
+    - plotnine
+    - tqdm
+    - matplotlib
+    - scikit-learn
+    - scipy
+    - statsmodels
+    - torch
